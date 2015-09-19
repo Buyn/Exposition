@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Rooms:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Rooms_jar</output-path>
+    <root id="archive" name="Rooms_jar.jar">
+      <element id="archive" name="Rooms.jar">
+        <element id="module-output" name="Exposition" />
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/production/Rooms/Rooms/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

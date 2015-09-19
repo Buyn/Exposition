@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20130901-r5756">
+  <project autorefresh="true" build="Build/" main="Exposition" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="Person.java" package="" timestamp="23-Jun-2014 01:46:52">
+        <select from="418" to="418"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Exposition.java" package="" timestamp="17-Jun-2014 12:44:44">
+        <select from="418" to="418"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Doorway.java" package="" timestamp="17-Jun-2014 12:12:08">
+        <select from="418" to="418"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Location.java" package="" timestamp="16-Jun-2014 10:05:56">
+        <select from="418" to="418"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Room.java" package="" timestamp="22-Jun-2014 00:41:32">
+        <select from="418" to="418"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Name.java" package="" timestamp="22-Jun-2014 14:03:50">
+        <select from="418" to="418"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
