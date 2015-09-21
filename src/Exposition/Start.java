@@ -5,6 +5,7 @@ import Exposition.Location.Exponate;
 import Exposition.Location.Room;
 import Exposition.Person.Person;
 import Exposition.Zals.Pracktis.Sorting.ExponatPuzir;
+import Exposition.Zals.Pracktis.Sorting.ExponatVstavka;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -14,6 +15,8 @@ public class Start {
         BufferedReader brReader = new BufferedReader(new InputStreamReader(System.in));
         Room rmHall = new Room("Big hall");
         rmHall.setingExponat("Table", "It flate");
+        rmHall.setingExponat(new ExponatVstavka(rmHall
+                , "Sorting Vstavka", "Sorting with back puzir Vstavka metod"));
         Room rmCooridor = new Room("Cooridor", rmHall);
         Room rmSmollHall = new Room("Smoll Hall", rmHall);
         Room rmSortig = new Room("Sorting Eksposition", rmHall);
