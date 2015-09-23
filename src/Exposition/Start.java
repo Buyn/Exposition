@@ -15,14 +15,15 @@ public class Start {
         BufferedReader brReader = new BufferedReader(new InputStreamReader(System.in));
         Room rmHall = new Room("Big hall");
         rmHall.setingExponat("Table", "It flate");
-        rmHall.setingExponat(new ExponatVstavka(rmHall
-                , "Sorting Vstavka", "Sorting with back puzir Vstavka metod"));
+
         Room rmCooridor = new Room("Cooridor", rmHall);
         Room rmSmollHall = new Room("Smoll Hall", rmHall);
         Room rmSortig = new Room("Sorting Eksposition", rmHall);
         //Sorting Eksposition
         rmSortig.setingExponat(new ExponatPuzir(rmSortig
                 , "Puzir Sorting", "Sorting with Puzir metod"));
+        rmSortig.setingExponat(new ExponatVstavka(rmSortig
+                , "Sorting Vstavka", "Sorting with back puzir Vstavka metod"));
         //rooms for Smoll Hall
         Room rmSleeping = new Room("Sleeping Room", rmSmollHall);
         Room rmWorkshop = new Room("Workshop", rmSmollHall);
@@ -31,6 +32,8 @@ public class Start {
         Room rmKitchen = new Room("Kitchen" , rmCooridor);
         Room rmBath = new Room("Bath" , rmCooridor);
         Room rmWC = new Room("WC" , rmCooridor);
+
+
 
         System.out.println("Enter You Name:");
         Person prPC = new Person(brReader.readLine(), rmHall);
@@ -42,6 +45,10 @@ public class Start {
 
         prPC.say("Hello world");
         prntLn(prPC.getName() + " in " + prPC.getRoom().getName());
+
+        //debag block
+//        prPC.use(2);
+//        if (true) return;
 
         String sTmp = "";
         KeyWords kwEntr = KeyWords.NOTFOUND;
