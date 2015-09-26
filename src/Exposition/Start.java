@@ -6,16 +6,19 @@ import Exposition.Location.Room;
 import Exposition.Person.Person;
 import Exposition.Zals.Pracktis.Sorting.ExponatPuzir;
 import Exposition.Zals.Pracktis.Sorting.ExponatVstavka;
+import Exposition.Zals.Pracktis.Sorting.ExponatVstavkaBinarSearch;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 //git hub addet
 public class Start {
+    public static boolean deBuging = true;
     public static void main(String[] args) throws Exception {
         BufferedReader brReader = new BufferedReader(new InputStreamReader(System.in));
         Room rmHall = new Room("Big hall");
         rmHall.setingExponat("Table", "It flate");
-
+        rmHall.setingExponat(new ExponatVstavkaBinarSearch(rmHall
+                , "Sorting Vstavka and binar search ", "Sorting with puzir  metod and pasting with binar search"));
         Room rmCooridor = new Room("Cooridor", rmHall);
         Room rmSmollHall = new Room("Smoll Hall", rmHall);
         Room rmSortig = new Room("Sorting Eksposition", rmHall);
@@ -35,20 +38,24 @@ public class Start {
 
 
 
+        if (deBuging){
+            Person prPC = new Person("Max", rmHall);
+            prPC.use(2);
+            return;
+        }
+
         System.out.println("Enter You Name:");
         Person prPC = new Person(brReader.readLine(), rmHall);
         Person prMax = new Person("Max", rmHall);
-
         if (prPC == null || prPC.getName().equals("") || prPC.getName().equals(" ")) {
-        prPC = prMax;
+            prPC = prMax;
         }
 
         prPC.say("Hello world");
         prntLn(prPC.getName() + " in " + prPC.getRoom().getName());
+        prPC.look();
 
         //debag block
-//        prPC.use(2);
-//        if (true) return;
 
         String sTmp = "";
         KeyWords kwEntr = KeyWords.NOTFOUND;

@@ -1,0 +1,214 @@
+package Exposition.Zals.Pracktis.Sorting;
+//buble Sorting algoritm
+
+import Exposition.Location.Exponate;
+import Exposition.Location.Room;
+
+import java.util.Random;
+import java.util.Arrays;
+
+public class ExponatVstavkaBinarSearch extends Exponate{
+//      Setings
+    public static int iLength = 10;
+    public static int iRange = 1000;
+    public static int iTims = 10;
+    public static boolean deBuging = true;
+    public static boolean deBuging1 = false;
+
+//     Static  Varibles for work
+    static int[] iNumbers = new int[iLength];
+    static int  iTmp;
+    static boolean  bContinue = false;
+
+    public ExponatVstavkaBinarSearch(Room rmRoom1, String sNewName, String newDescription){
+        super( rmRoom1,   sNewName,  newDescription);
+        bContinue = false;
+    }
+
+//    @Override
+    public  void useObjekt() {
+        double iLastCicls   = 0;
+        double iSumCikls    = 0;
+        long lStart = 0;
+        long lEnd   = 0;
+        long lSum   = 0;
+        for (int i = 0; i < iTims; i++) {
+            lStart = System.currentTimeMillis();
+            iLastCicls= mainCicle();
+            iSumCikls += iLastCicls;
+            lEnd = System.currentTimeMillis();
+            lSum += (lEnd - lStart);
+        }
+        System.out.println("Last cicle = " + iLastCicls);
+        System.out.println("Averedg for " + iTims + " : " + (iSumCikls / iTims ));
+        System.out.println("Procent of Length for " + iLength + " : " + ((iSumCikls / iTims)/iLength)*100 + "%");
+        System.out.println("Last sorting Milisecunds = " + ( lEnd - lStart  ));
+        System.out.println("Averedg sorting Milisecunds = " + (lSum / iTims ));
+    }
+
+    static void cicleForward(){
+        if (iNumbers[0] > iNumbers[1]){
+            iTmp = iNumbers[0];
+            iNumbers[0] = iNumbers[1];
+            iNumbers[1] = iTmp;
+            if (deBuging){
+                System.out.print("Forward " + 0 + ": \t" );
+                printMatri();
+            }
+        }
+        for (int i = 1; i < iNumbers.length - 1; i++) {
+            if (iNumbers[i] >= iNumbers[i + 1] && iNumbers[i-1] <= iNumbers[i + 1]){
+                iTmp = iNumbers[i];
+                iNumbers[i] = iNumbers[i + 1];
+                iNumbers[i + 1] = iTmp;
+                if (deBuging){
+                    System.out.print("Forward " + i + ": \t" );
+                    printMatri();
+                }
+            }
+            if (iNumbers[i] > iNumbers[i + 1]){
+                if (deBuging){
+                    System.out.print("Forward " + i + ": \t" );
+                    printMatri();
+                }
+                pastBetwin(Arrays.binarySearch( //find where to past
+                        iNumbers,       //From  arrey
+                        0,              //From index
+                        i,              //To index
+                        iNumbers[i+1]),   //Kay to search
+                        //end arg for benarySearch
+                        i+1);             //index element to repast
+
+            }
+        }
+    }
+//todo System.out.print(Arrays.toString)
+//todo how debag information outing
+
+    /**
+     * function coping element forward from target position
+     * to element position
+     * on one element and placing element to empty space
+     * @param target index  for  placing
+     *               minus mean element not found end mast be placid in this index
+     * @param element index  what be placid
+     */
+    private static void pastBetwin(int target, int element) {
+        target = Math.abs(target) - 1; //if element bige then target
+        if (deBuging1){
+            System.out.println(element + " : " + iNumbers[element] + " bagen pastBetwin " + target + " : \t" + iNumbers[target]);
+            printMatri();
+        }
+        iTmp = iNumbers[element]; //save beafo copybg
+        System.arraycopy(   iNumbers,   //From  arrey
+                            target,     //From index
+                            iNumbers,   //To  arrey
+                            target+1,   //Index to past
+                            (element - target));//How many.
+        iNumbers[target]=iTmp; //past in empty place
+        if (deBuging1){
+            System.out.println(element + " : " + iNumbers[element] + " End pastBetwin " + target + " : \t" + iNumbers[target]);
+            printMatri();
+        }
+    }
+    /**
+     * Mostli not working
+     *  first see found  or not
+     *  if not then determing wher to jump
+     *  and trying agean
+     * @param indexSearch index to cheak betwin
+     * @param indexElement index of elememt for comparing
+     * @return index of sugested gess
+     */
+    private static int pastBinarSearch(int indexSearch , int  indexElement) {
+        //if it eql one then return
+        if (deBuging1){
+                System.out.println(indexSearch);
+                System.out.println(indexElement);
+        }
+        if (indexSearch == 0)return indexSearch;
+        if (iNumbers[indexElement] == iNumbers[indexSearch + 1]
+                ||iNumbers[indexSearch - 1] == iNumbers[indexElement])
+            return indexSearch;
+        //if it in bonds then return
+        if (iNumbers[indexSearch - 1] <= iNumbers[indexElement] &&
+                iNumbers[indexElement] <= iNumbers[indexSearch + 1])
+            return indexSearch;
+        //if not then deside in which side need to go
+        if (iNumbers[indexElement - 1] < iNumbers[indexElement]) {
+            return pastBinarSearch(indexSearch / 2, indexElement);
+        }
+        return pastBinarSearch((iNumbers.length - indexSearch) / 2, indexElement);
+    }
+
+
+    static void cicleBack(int bagen){
+        for (int i = bagen; i >= 1; i--) {
+            //System.out.print("Back " + i + "\t: \t" );
+            //printMatri();
+            if (iNumbers[i] < iNumbers[i - 1]){
+                iTmp = iNumbers[i - 1];
+                iNumbers[i - 1] = iNumbers[i];
+                iNumbers[i] = iTmp;
+            }else
+                break;
+        }
+    }
+
+
+
+    private int mainCicle(){
+        initMatrix();
+        if (deBuging){
+            printMatri();
+        }
+        cicleForward();
+        return 0;
+    }
+
+    private void initMatrix() {
+        Random rGenerator =new Random();
+        //seting random numbers
+        for (int i = 0; i < iLength; i++) {
+            iNumbers[i] = rGenerator.nextInt(iRange);
+        }
+    }
+
+    public static int countCicls(){
+    int iCount =0;
+    Random rGenerator =new Random();
+    int[] iNumbers = new int[iLength];
+    //seting random numbers
+    for (int i = 0; i < iLength; i++) {
+        iNumbers[i] = rGenerator.nextInt(iRange);
+    }
+    //uncomment to print
+//    printMatri(iNumbers);
+//        sorting cicle
+    counting:
+    while (true) {
+        bContinue = false;
+        for (int i = 0; i < iLength - 1; i++) {
+            if (iNumbers[i] > iNumbers[i + 1]){
+                iTmp = iNumbers[i];
+                iNumbers[i] = iNumbers[i + 1];
+                iNumbers[i + 1] = iTmp;
+                bContinue = true;
+            }
+        }
+//        printMatri(iNumbers);
+        if (bContinue != true) break counting;
+        iCount++;
+    }
+    return iCount;
+}
+
+
+    public static void printMatri(){
+        for (int i = 0; i < iNumbers.length; i++) {
+            System.out.print(iNumbers[i] + "; ");
+        }
+        System.out.println("|");
+    }
+
+}
