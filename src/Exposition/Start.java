@@ -1,10 +1,9 @@
 package Exposition;
 
 import Exposition.KeyWords.KeyWords;
-import Exposition.Location.Exponate;
 import Exposition.Location.Room;
 import Exposition.Person.Person;
-import Exposition.Zals.Pracktis.Sorting.ExponatPuzir;
+import Exposition.Zals.Pracktis.Sorting.ExponatPuzirBarer;
 import Exposition.Zals.Pracktis.Sorting.ExponatVstavka;
 import Exposition.Zals.Pracktis.Sorting.ExponatVstavkaBinarSearch;
 
@@ -12,16 +11,18 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 //git hub addet
 public class Start {
-    public static boolean deBuging = false;
+    public static boolean deBuging = true;
     public static void main(String[] args) throws Exception {
         BufferedReader brReader = new BufferedReader(new InputStreamReader(System.in));
         Room rmHall = new Room("Big hall");
         rmHall.setingExponat("Table", "It flate");
+        rmHall.setingExponat(new ExponatVstavkaSlid(rmHall
+                , "Puzir Sorting", "Sorting with Puzir metod"));
         Room rmCooridor = new Room("Cooridor", rmHall);
         Room rmSmollHall = new Room("Smoll Hall", rmHall);
         Room rmSortig = new Room("Sorting Eksposition", rmHall);
         //Sorting Eksposition
-        rmSortig.setingExponat(new ExponatPuzir(rmSortig
+        rmSortig.setingExponat(new ExponatPuzirBarer(rmSortig
                 , "Puzir Sorting", "Sorting with Puzir metod"));
         rmSortig.setingExponat(new ExponatVstavka(rmSortig
                 , "Sorting Vstavka", "Sorting with back puzir Vstavka metod"));
