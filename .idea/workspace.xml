@@ -6,16 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java" line="95" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java" line="122" mnemonic="3" />
-    <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java" line="48" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java" line="98" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java" line="127" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java" line="49" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e103370e-6d8b-45b3-8ad6-c7a02f01d1ea" name="Default" comment="need end arrey copy&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exposition/Exposition/Start$1.class" afterPath="$PROJECT_DIR$/out/production/Exposition/Exposition/Start$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exposition/Exposition/Start.class" afterPath="$PROJECT_DIR$/out/production/Exposition/Exposition/Start.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exposition/Start.java" afterPath="$PROJECT_DIR$/src/Exposition/Start.java" />
+    <list default="true" id="e103370e-6d8b-45b3-8ad6-c7a02f01d1ea" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java" afterPath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Rooms.iws" />
@@ -52,8 +49,8 @@
       <file leaf-file-name="ExponatVstavkaBinarSearch.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38665253">
-              <caret line="162" column="17" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.5127119">
+              <caret line="174" column="20" selection-start-line="174" selection-start-column="20" selection-end-line="174" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -672,7 +669,7 @@
       <workItem from="1442594977891" duration="4922000" />
       <workItem from="1442612246829" duration="12559000" />
       <workItem from="1442662604099" duration="29241000" />
-      <workItem from="1443154846846" duration="28793000" />
+      <workItem from="1443154846846" duration="34324000" />
     </task>
     <task id="LOCAL-00001" summary="Work from IDEA">
       <created>1442662902441</created>
@@ -692,11 +689,17 @@
       <option name="project" value="LOCAL" />
       <updated>1443038922457</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Mostly work&#10;degaging&#10;">
+      <created>1443297800658</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1443297800658</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102048000" />
+    <option name="totallyTimeSpent" value="107579000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -720,7 +723,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1023" y="0" width="897" height="1080" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="1081" y="562" width="358" height="306" />
@@ -771,19 +774,12 @@
     <MESSAGE value="adding  Vstavka exmpl(copy pusir)&#10;" />
     <MESSAGE value="adding  Vstavka exmpl(All work)&#10;" />
     <MESSAGE value="need end arrey copy&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="need end arrey copy&#10;" />
+    <MESSAGE value="Mostly work&#10;degaging&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mostly work&#10;degaging&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java</url>
-          <line>95</line>
-          <properties class="Exposition.Zals.Pracktis.Sorting.ExponatVstavkaBinarSearch" method="pastBetwin" />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1059,8 +1055,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38665253">
-          <caret line="162" column="17" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.5127119">
+          <caret line="174" column="20" selection-start-line="174" selection-start-column="20" selection-end-line="174" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

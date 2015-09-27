@@ -9,14 +9,15 @@ import java.util.Arrays;
 
 public class ExponatVstavkaBinarSearch extends Exponate{
 //      Setings
-    public static int iLength = 10;
+    public static int iLength = 1000;
     public static int iRange = 1000;
-    public static int iTims = 10;
-    public static boolean deBuging = true;
+    public static int iTims = 1000;
+    public static boolean deBuging = false;
     public static boolean deBuging1 = false;
 
 //     Static  Varibles for work
     static int[] iNumbers = new int[iLength];
+    //static int[] iNumbers = {78, 333, 504, 653, 879, 78, 828, 528, 629, 696};
     static int  iTmp;
     static boolean  bContinue = false;
 
@@ -46,7 +47,8 @@ public class ExponatVstavkaBinarSearch extends Exponate{
         System.out.println("Averedg sorting Milisecunds = " + (lSum / iTims ));
     }
 
-    static void cicleForward(){
+    static int cicleForward(){
+        int count =0;
         if (iNumbers[0] > iNumbers[1]){
             iTmp = iNumbers[0];
             iNumbers[0] = iNumbers[1];
@@ -67,20 +69,21 @@ public class ExponatVstavkaBinarSearch extends Exponate{
                 }
             }
             if (iNumbers[i] > iNumbers[i + 1]){
+                count++;
+                pastBetwin(Arrays.binarySearch( //find where to past
+                                iNumbers,       //From  arrey
+                                0,              //From index
+                                i,              //To index
+                                iNumbers[i + 1]),   //Kay to search
+                        //end arg for benarySearch
+                        i + 1);             //index element to repast
                 if (deBuging){
                     System.out.print("Forward " + i + ": \t" );
                     printMatri();
                 }
-                pastBetwin(Arrays.binarySearch( //find where to past
-                        iNumbers,       //From  arrey
-                        0,              //From index
-                        i,              //To index
-                        iNumbers[i+1]),   //Kay to search
-                        //end arg for benarySearch
-                        i+1);             //index element to repast
-
             }
         }
+        return count;
     }
 //todo System.out.print(Arrays.toString)
 //todo how debag information outing
@@ -94,7 +97,8 @@ public class ExponatVstavkaBinarSearch extends Exponate{
      * @param element index  what be placid
      */
     private static void pastBetwin(int target, int element) {
-        target = Math.abs(target) - 1; //if element bige then target
+        if (target ==0) target++;
+        if (target <0) target = Math.abs(target) - 1;
         if (deBuging1){
             System.out.println(element + " : " + iNumbers[element] + " bagen pastBetwin " + target + " : \t" + iNumbers[target]);
             printMatri();
@@ -110,6 +114,7 @@ public class ExponatVstavkaBinarSearch extends Exponate{
             System.out.println(element + " : " + iNumbers[element] + " End pastBetwin " + target + " : \t" + iNumbers[target]);
             printMatri();
         }
+
     }
     /**
      * Mostli not working
@@ -162,8 +167,12 @@ public class ExponatVstavkaBinarSearch extends Exponate{
         if (deBuging){
             printMatri();
         }
-        cicleForward();
-        return 0;
+
+        int count = cicleForward();
+        if (deBuging){
+            printMatri();
+        }
+        return count;
     }
 
     private void initMatrix() {
