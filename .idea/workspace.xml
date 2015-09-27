@@ -12,7 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e103370e-6d8b-45b3-8ad6-c7a02f01d1ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java" afterPath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzir.java" afterPath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzir.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exposition/Start.java" afterPath="$PROJECT_DIR$/src/Exposition/Start.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Rooms.iws" />
@@ -40,30 +41,20 @@
         <entry file="file://$PROJECT_DIR$/src/Exposition/Start.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExponatVstavkaBinarSearch.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java">
+      <file leaf-file-name="ExponatPuzir.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzir.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5127119">
-              <caret line="174" column="20" selection-start-line="174" selection-start-column="20" selection-end-line="174" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.30614406">
+              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExponatPuzir.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzir.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -72,10 +63,8 @@
         <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavka.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,15 +74,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="122" column="32" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#384#385#0" expanded="false" />
-                <element signature="e#463#464#0" expanded="false" />
-                <element signature="e#3455#3456#0" expanded="false" />
-                <element signature="e#3491#3492#0" expanded="false" />
-                <element signature="e#3520#3521#0" expanded="false" />
-                <element signature="e#3549#3550#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,13 +143,13 @@
         <option value="$PROJECT_DIR$/src/Rooms/KeyWords/KeyWords.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/Main.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/PuzirExponat.java" />
-        <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzir.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Location/Exponate.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Location/Room.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Person/Person.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavka.java" />
-        <option value="$PROJECT_DIR$/src/Exposition/Start.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java" />
+        <option value="$PROJECT_DIR$/src/Exposition/Start.java" />
+        <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzir.java" />
       </list>
     </option>
   </component>
@@ -669,7 +650,7 @@
       <workItem from="1442594977891" duration="4922000" />
       <workItem from="1442612246829" duration="12559000" />
       <workItem from="1442662604099" duration="29241000" />
-      <workItem from="1443154846846" duration="34324000" />
+      <workItem from="1443154846846" duration="37198000" />
     </task>
     <task id="LOCAL-00001" summary="Work from IDEA">
       <created>1442662902441</created>
@@ -695,11 +676,17 @@
       <option name="project" value="LOCAL" />
       <updated>1443297800658</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Binar all don&#10;nide of debug&#10;">
+      <created>1443323380867</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1443323380867</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107579000" />
+    <option name="totallyTimeSpent" value="110453000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -735,7 +722,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39917696" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.32975206" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="618" width="749" height="433" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.32975206" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="618" width="749" height="433" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" x="0" y="447" width="941" height="423" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" weight="0.46875" sideWeight="0.49959448" order="0" side_tool="false" content_ui="combo" x="750" y="1" width="283" height="553" />
@@ -775,7 +762,8 @@
     <MESSAGE value="adding  Vstavka exmpl(All work)&#10;" />
     <MESSAGE value="need end arrey copy&#10;" />
     <MESSAGE value="Mostly work&#10;degaging&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mostly work&#10;degaging&#10;" />
+    <MESSAGE value="Binar all don&#10;nide of debug&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binar all don&#10;nide of debug&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -810,7 +798,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -818,9 +808,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -828,15 +816,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="122" column="32" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#384#385#0" expanded="false" />
-            <element signature="e#463#464#0" expanded="false" />
-            <element signature="e#3455#3456#0" expanded="false" />
-            <element signature="e#3491#3492#0" expanded="false" />
-            <element signature="e#3520#3521#0" expanded="false" />
-            <element signature="e#3549#3550#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -890,15 +870,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="122" column="32" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#384#385#0" expanded="false" />
-            <element signature="e#463#464#0" expanded="false" />
-            <element signature="e#3455#3456#0" expanded="false" />
-            <element signature="e#3491#3492#0" expanded="false" />
-            <element signature="e#3520#3521#0" expanded="false" />
-            <element signature="e#3549#3550#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,40 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exposition/Person/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="122" column="32" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#384#385#0" expanded="false" />
-            <element signature="e#463#464#0" expanded="false" />
-            <element signature="e#3455#3456#0" expanded="false" />
-            <element signature="e#3491#3492#0" expanded="false" />
-            <element signature="e#3520#3521#0" expanded="false" />
-            <element signature="e#3549#3550#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzir.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../Java/JDK/jdk1.8.0_25/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33262712">
@@ -1045,18 +983,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exposition/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5127119">
           <caret line="174" column="20" selection-start-line="174" selection-start-column="20" selection-end-line="174" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Person/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="122" column="32" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30614406">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

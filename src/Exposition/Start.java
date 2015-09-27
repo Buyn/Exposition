@@ -12,13 +12,11 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 //git hub addet
 public class Start {
-    public static boolean deBuging = true;
+    public static boolean deBuging = false;
     public static void main(String[] args) throws Exception {
         BufferedReader brReader = new BufferedReader(new InputStreamReader(System.in));
         Room rmHall = new Room("Big hall");
         rmHall.setingExponat("Table", "It flate");
-        rmHall.setingExponat(new ExponatVstavkaBinarSearch(rmHall
-                , "Sorting Vstavka and binar search ", "Sorting with puzir  metod and pasting with binar search"));
         Room rmCooridor = new Room("Cooridor", rmHall);
         Room rmSmollHall = new Room("Smoll Hall", rmHall);
         Room rmSortig = new Room("Sorting Eksposition", rmHall);
@@ -27,6 +25,8 @@ public class Start {
                 , "Puzir Sorting", "Sorting with Puzir metod"));
         rmSortig.setingExponat(new ExponatVstavka(rmSortig
                 , "Sorting Vstavka", "Sorting with back puzir Vstavka metod"));
+        rmSortig.setingExponat(new ExponatVstavkaBinarSearch(rmSortig
+                , "Sorting Vstavka and binar search ", "Sorting with puzir  metod and pasting with binar search"));
         //rooms for Smoll Hall
         Room rmSleeping = new Room("Sleeping Room", rmSmollHall);
         Room rmWorkshop = new Room("Workshop", rmSmollHall);

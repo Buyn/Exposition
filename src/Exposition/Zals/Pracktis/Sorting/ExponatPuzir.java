@@ -19,9 +19,6 @@ public class ExponatPuzir extends Exponate{
 
     public ExponatPuzir(Room rmRoom1,  String sNewName, String newDescription){
         super( rmRoom1,   sNewName,  newDescription);
-        iLength = 1000;
-        iRange = 1000;
-        iTims = 1000;
 //     Static  Varibles for work
         bContinue = false;
     }
