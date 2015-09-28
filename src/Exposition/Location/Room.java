@@ -130,6 +130,10 @@ public class Room extends Name {
         }
         return alExponats.get(iWay-1);
     }
+    public boolean getExponate(Exponate exponateTo ){
+        if (alExponats.indexOf(exponateTo)== -1) return false;
+        return true;
+    }
 
 
     public Doorway getDoorWay(int iWay){

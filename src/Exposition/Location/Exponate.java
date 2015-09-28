@@ -12,6 +12,7 @@ public class Exponate extends Location {
 
     public Exponate(Room rmRoom1,  String sNewName, String newDescription) {
         this(rmRoom1);
+        if (!rmRoom1.getExponate(this)) rmRoom1.setingExponat(this);
         this.setName(sNewName);
         this.setDescription(newDescription);
     }

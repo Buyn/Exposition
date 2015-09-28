@@ -6,15 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzirBarer.java" line="13" mnemonic="1" />
-    <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzirBarer.java" line="68" mnemonic="2" />
     <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java" line="73" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java" line="184" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java" line="46" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e103370e-6d8b-45b3-8ad6-c7a02f01d1ea" name="Default" comment="all done&#10;&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzirBarer.java" afterPath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzirBarer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java" afterPath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exposition/Start.java" afterPath="$PROJECT_DIR$/src/Exposition/Start.java" />
+    <list default="true" id="e103370e-6d8b-45b3-8ad6-c7a02f01d1ea" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exposition/Exposition/Start$1.class" afterPath="$PROJECT_DIR$/out/production/Exposition/Exposition/Start$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exposition/Exposition/Start.class" afterPath="$PROJECT_DIR$/out/production/Exposition/Exposition/Start.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exposition/Location/Exponate.java" afterPath="$PROJECT_DIR$/src/Exposition/Location/Exponate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exposition/Location/Room.java" afterPath="$PROJECT_DIR$/src/Exposition/Location/Room.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Rooms.iws" />
@@ -48,22 +50,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExponatVstavkaBinarSearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java">
+      <file leaf-file-name="ExponatMeargNativSorting.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="68" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExponatVstavkaSlid.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54025424">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-              <folding />
+            <state vertical-scroll-proportion="0.789823">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding>
+                <element signature="e#1198#1199#0" expanded="true" />
+                <element signature="e#1260#1261#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,23 +77,8 @@
         <entry file="file://$PROJECT_DIR$/src/Exposition/Location/Room.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="127" column="37" selection-start-line="127" selection-start-column="37" selection-end-line="127" selection-end-column="37" />
+              <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#253#262#0" expanded="false" />
-                <element signature="e#325#335#0" expanded="false" />
-                <element signature="e#606#607#0" expanded="false" />
-                <element signature="e#639#640#0" expanded="false" />
-                <element signature="e#964#965#0" expanded="false" />
-                <element signature="e#1003#1004#0" expanded="false" />
-                <element signature="e#1056#1057#0" expanded="false" />
-                <element signature="e#1104#1105#0" expanded="false" />
-                <element signature="e#1173#1174#0" expanded="false" />
-                <element signature="e#1215#1216#0" expanded="false" />
-                <element signature="e#1272#1273#0" expanded="false" />
-                <element signature="e#1322#1323#0" expanded="false" />
-                <element signature="e#2823#2824#0" expanded="false" />
-                <element signature="e#2871#2872#0" expanded="false" />
                 <element signature="method#getDoorWay#0;class#Room#0" expanded="false" />
               </folding>
             </state>
@@ -109,13 +89,8 @@
         <entry file="file://$PROJECT_DIR$/src/Exposition/Location/Exponate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="e#979#980#0" expanded="false" />
-                <element signature="e#1028#1029#0" expanded="false" />
-                <element signature="e#1065#1066#0" expanded="false" />
-                <element signature="e#1100#1101#0" expanded="false" />
-              </folding>
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,8 +117,6 @@
         <option value="$PROJECT_DIR$/src/Rooms/KeyWords/KeyWords.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/Main.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/PuzirExponat.java" />
-        <option value="$PROJECT_DIR$/src/Exposition/Location/Exponate.java" />
-        <option value="$PROJECT_DIR$/src/Exposition/Location/Room.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Person/Person.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavka.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java" />
@@ -151,6 +124,9 @@
         <option value="$PROJECT_DIR$/src/Exposition/Start.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzirBarer.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java" />
+        <option value="$PROJECT_DIR$/src/Exposition/Location/Room.java" />
+        <option value="$PROJECT_DIR$/src/Exposition/Location/Exponate.java" />
+        <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java" />
       </list>
     </option>
   </component>
@@ -162,9 +138,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1023" />
+    <option name="x" value="1024" />
     <option name="width" value="897" />
-    <option name="height" value="1080" />
+    <option name="height" value="1063" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -173,7 +149,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -263,6 +239,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Sorting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rooms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exposition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exposition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Location" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -607,7 +605,7 @@
       <workItem from="1442594977891" duration="4922000" />
       <workItem from="1442612246829" duration="12559000" />
       <workItem from="1442662604099" duration="29241000" />
-      <workItem from="1443154846846" duration="49026000" />
+      <workItem from="1443154846846" duration="55195000" />
     </task>
     <task id="LOCAL-00001" summary="Work from IDEA">
       <created>1442662902441</created>
@@ -651,11 +649,17 @@
       <option name="project" value="LOCAL" />
       <updated>1443373660664</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="all done&#10;Mearging exempl&#10;">
+      <created>1443438441448</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1443438441448</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122281000" />
+    <option name="totallyTimeSpent" value="128450000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -678,7 +682,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1023" y="0" width="897" height="1080" extended-state="0" />
+    <frame x="1024" y="0" width="897" height="1063" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -697,7 +701,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" weight="0.46875" sideWeight="0.49959448" order="0" side_tool="false" content_ui="combo" x="750" y="1" width="283" height="553" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32927817" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="240" y="162" width="510" height="457" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.24949084" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" x="749" y="553" width="280" height="498" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.24949084" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" x="749" y="553" width="280" height="498" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46764347" sideWeight="0.5004055" order="3" side_tool="true" content_ui="tabs" x="1239" y="702" width="188" height="206" />
@@ -734,11 +738,12 @@
     <MESSAGE value="Binar all don&#10;nide of debug&#10;" />
     <MESSAGE value="Binar search working &#10;next puzir&#10;" />
     <MESSAGE value="vstav puzir Slading&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="vstav puzir Slading&#10;" />
+    <MESSAGE value="all done&#10;Mearging exempl&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="all done&#10;Mearging exempl&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="29" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -792,21 +797,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="127" column="37" selection-start-line="127" selection-start-column="37" selection-end-line="127" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#253#262#0" expanded="false" />
-            <element signature="e#325#335#0" expanded="false" />
-            <element signature="e#606#607#0" expanded="false" />
-            <element signature="e#639#640#0" expanded="false" />
-            <element signature="e#964#965#0" expanded="false" />
-            <element signature="e#1003#1004#0" expanded="false" />
-            <element signature="e#1056#1057#0" expanded="false" />
-            <element signature="e#1104#1105#0" expanded="false" />
-            <element signature="e#1173#1174#0" expanded="false" />
-            <element signature="e#1215#1216#0" expanded="false" />
-            <element signature="e#1272#1273#0" expanded="false" />
-            <element signature="e#1322#1323#0" expanded="false" />
-            <element signature="e#2823#2824#0" expanded="false" />
-            <element signature="e#2871#2872#0" expanded="false" />
             <element signature="method#getDoorWay#0;class#Room#0" expanded="false" />
           </folding>
         </state>
@@ -816,12 +806,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#979#980#0" expanded="false" />
-            <element signature="e#1028#1029#0" expanded="false" />
-            <element signature="e#1065#1066#0" expanded="false" />
-            <element signature="e#1100#1101#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -846,21 +831,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="127" column="37" selection-start-line="127" selection-start-column="37" selection-end-line="127" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#253#262#0" expanded="false" />
-            <element signature="e#325#335#0" expanded="false" />
-            <element signature="e#606#607#0" expanded="false" />
-            <element signature="e#639#640#0" expanded="false" />
-            <element signature="e#964#965#0" expanded="false" />
-            <element signature="e#1003#1004#0" expanded="false" />
-            <element signature="e#1056#1057#0" expanded="false" />
-            <element signature="e#1104#1105#0" expanded="false" />
-            <element signature="e#1173#1174#0" expanded="false" />
-            <element signature="e#1215#1216#0" expanded="false" />
-            <element signature="e#1272#1273#0" expanded="false" />
-            <element signature="e#1322#1323#0" expanded="false" />
-            <element signature="e#2823#2824#0" expanded="false" />
-            <element signature="e#2871#2872#0" expanded="false" />
             <element signature="method#getDoorWay#0;class#Room#0" expanded="false" />
           </folding>
         </state>
@@ -870,25 +840,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#979#980#0" expanded="false" />
-            <element signature="e#1028#1029#0" expanded="false" />
-            <element signature="e#1065#1066#0" expanded="false" />
-            <element signature="e#1100#1101#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exposition/Location/Exponate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#979#980#0" expanded="false" />
-            <element signature="e#1028#1029#0" expanded="false" />
-            <element signature="e#1065#1066#0" expanded="false" />
-            <element signature="e#1100#1101#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -897,46 +849,6 @@
         <state vertical-scroll-proportion="0.8739407">
           <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#253#262#0" expanded="false" />
-            <element signature="e#325#335#0" expanded="false" />
-            <element signature="e#606#607#0" expanded="false" />
-            <element signature="e#639#640#0" expanded="false" />
-            <element signature="e#964#965#0" expanded="false" />
-            <element signature="e#1003#1004#0" expanded="false" />
-            <element signature="e#1056#1057#0" expanded="false" />
-            <element signature="e#1104#1105#0" expanded="false" />
-            <element signature="e#1173#1174#0" expanded="false" />
-            <element signature="e#1215#1216#0" expanded="false" />
-            <element signature="e#1272#1273#0" expanded="false" />
-            <element signature="e#1322#1323#0" expanded="false" />
-            <element signature="e#2823#2824#0" expanded="false" />
-            <element signature="e#2871#2872#0" expanded="false" />
-            <element signature="method#getDoorWay#0;class#Room#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exposition/Location/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="127" column="37" selection-start-line="127" selection-start-column="37" selection-end-line="127" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#253#262#0" expanded="false" />
-            <element signature="e#325#335#0" expanded="false" />
-            <element signature="e#606#607#0" expanded="false" />
-            <element signature="e#639#640#0" expanded="false" />
-            <element signature="e#964#965#0" expanded="false" />
-            <element signature="e#1003#1004#0" expanded="false" />
-            <element signature="e#1056#1057#0" expanded="false" />
-            <element signature="e#1104#1105#0" expanded="false" />
-            <element signature="e#1173#1174#0" expanded="false" />
-            <element signature="e#1215#1216#0" expanded="false" />
-            <element signature="e#1272#1273#0" expanded="false" />
-            <element signature="e#1322#1323#0" expanded="false" />
-            <element signature="e#2823#2824#0" expanded="false" />
-            <element signature="e#2871#2872#0" expanded="false" />
             <element signature="method#getDoorWay#0;class#Room#0" expanded="false" />
           </folding>
         </state>
@@ -950,14 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exposition/Person/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="122" column="32" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavka.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4417373">
@@ -966,17 +870,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzirBarer.java">
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Person/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19809322">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="122" column="32" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Location/Exponate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Location/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+          <folding>
+            <element signature="method#getDoorWay#0;class#Room#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5641593">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="1.1471239">
           <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="68" selection-end-column="17" />
           <folding />
         </state>
@@ -990,11 +920,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java">
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzirBarer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54025424">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.16924779">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.789823">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#1198#1199#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
