@@ -6,19 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java" line="127" mnemonic="3" />
     <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzirBarer.java" line="13" mnemonic="1" />
-    <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzirBarer.java" line="67" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzirBarer.java" line="68" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java" line="73" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e103370e-6d8b-45b3-8ad6-c7a02f01d1ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java" />
-      <change type="DELETED" beforePath="D:\Development\version-control\GitHub\Exposition\out\production\Exposition\Exposition\Zals\Pracktis\Sorting\ExponatPuzir.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exposition/Exposition/Start$1.class" afterPath="$PROJECT_DIR$/out/production/Exposition/Exposition/Start$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exposition/Exposition/Start.class" afterPath="$PROJECT_DIR$/out/production/Exposition/Exposition/Start.class" />
+    <list default="true" id="e103370e-6d8b-45b3-8ad6-c7a02f01d1ea" name="Default" comment="all done&#10;&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzirBarer.java" afterPath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzirBarer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java" afterPath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exposition/Start.java" afterPath="$PROJECT_DIR$/src/Exposition/Start.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Development\version-control\GitHub\Exposition\src\Exposition\Zals\Pracktis\Sorting\ExponatPuzir.java" afterPath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzirBarer.java" />
     </list>
     <ignored path="Rooms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,27 +42,27 @@
         <entry file="file://$PROJECT_DIR$/src/Exposition/Start.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExponatVstavka.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavka.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4417373">
-              <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExponatVstavkaSlid.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java">
+      <file leaf-file-name="ExponatVstavkaBinarSearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="31" />
+              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="68" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExponatVstavkaSlid.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.54025424">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -151,9 +148,9 @@
         <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavka.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzir.java" />
+        <option value="$PROJECT_DIR$/src/Exposition/Start.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzirBarer.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java" />
-        <option value="$PROJECT_DIR$/src/Exposition/Start.java" />
       </list>
     </option>
   </component>
@@ -610,7 +607,7 @@
       <workItem from="1442594977891" duration="4922000" />
       <workItem from="1442612246829" duration="12559000" />
       <workItem from="1442662604099" duration="29241000" />
-      <workItem from="1443154846846" duration="43187000" />
+      <workItem from="1443154846846" duration="49026000" />
     </task>
     <task id="LOCAL-00001" summary="Work from IDEA">
       <created>1442662902441</created>
@@ -648,11 +645,17 @@
       <option name="project" value="LOCAL" />
       <updated>1443331106880</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="vstav puzir Slading&#10;">
+      <created>1443373660664</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1443373660664</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116442000" />
+    <option name="totallyTimeSpent" value="122281000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -694,7 +697,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" weight="0.46875" sideWeight="0.49959448" order="0" side_tool="false" content_ui="combo" x="750" y="1" width="283" height="553" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32927817" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="240" y="162" width="510" height="457" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.24949084" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" x="749" y="553" width="280" height="498" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.24949084" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" x="749" y="553" width="280" height="498" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46764347" sideWeight="0.5004055" order="3" side_tool="true" content_ui="tabs" x="1239" y="702" width="188" height="206" />
@@ -730,19 +733,12 @@
     <MESSAGE value="Mostly work&#10;degaging&#10;" />
     <MESSAGE value="Binar all don&#10;nide of debug&#10;" />
     <MESSAGE value="Binar search working &#10;next puzir&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binar search working &#10;next puzir&#10;" />
+    <MESSAGE value="vstav puzir Slading&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="vstav puzir Slading&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzirBarer.java</url>
-          <line>80</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="24" />
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -771,9 +767,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -964,44 +958,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavka.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33262712">
-          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.4417373">
+          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzirBarer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.476695">
-          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.19809322">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaBinarSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="68" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Exposition/Start.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavka.java">
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4417373">
-          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.54025424">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
           <folding />
         </state>
       </provider>

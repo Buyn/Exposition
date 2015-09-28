@@ -13,6 +13,7 @@ public class ExponatPuzirBarer extends Exponate{
     public static int iLength = 10;
     public static int iRange = 1000;
     public static int iTims = 1;
+
 //     Static  Varibles for work
     static int  iTmp;
     static boolean  bContinue = false;

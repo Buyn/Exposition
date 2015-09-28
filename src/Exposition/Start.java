@@ -1,14 +1,12 @@
 package Exposition;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
 import Exposition.KeyWords.KeyWords;
 import Exposition.Location.Room;
 import Exposition.Person.Person;
-import Exposition.Zals.Pracktis.Sorting.ExponatPuzirBarer;
-import Exposition.Zals.Pracktis.Sorting.ExponatVstavka;
-import Exposition.Zals.Pracktis.Sorting.ExponatVstavkaBinarSearch;
-
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import Exposition.Zals.Pracktis.Sorting.*;
 //git hub addet
 public class Start {
     public static boolean deBuging = true;

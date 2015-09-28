@@ -8,9 +8,10 @@ import java.util.Random;
 
 public class ExponatVstavkaSlid extends Exponate{
 //      Setings
-    public static int iLength = 1000;
+    public static int iLength = 10;
     public static int iRange = 1000;
-    public static int iTims = 1000;
+    public static int iTims = 1;
+    public static boolean deBuging = true;
 //     Static  Varibles for work
     static int[] iNumbers = new int[iLength];
     static int  iTmp;
@@ -47,35 +48,61 @@ public class ExponatVstavkaSlid extends Exponate{
     }
 
     static void cicleForward(){
-        for (int i = 0; i < iLength - 1; i++) {
-            //System.out.print("Forward " + i + ": \t" );
-            //printMatri();
+        for (int i = 1; i < iLength - 1; i++) {
+            if (iNumbers[i] == iNumbers[i + 1])continue;
             if (iNumbers[i] > iNumbers[i + 1]){
                 iTmp = iNumbers[i];
                 iNumbers[i] = iNumbers[i + 1];
                 iNumbers[i + 1] = iTmp;
-                cicleBack(i);
+                if (deBuging){
+                    System.out.print("Forward " + i + "\t: \t" );
+                    printMatri();
+                }
             }
+            if (iNumbers[i] < iNumbers[i -1])cicleBack(i);
         }
     }
 
+    /**
+     * cirkle back to find place for element
+     * cliding all that biger
+     * search point to break cikl if
+     * on 0 point not found break and replace in 0 index
+     * @param bagen
+     */
+
     static void cicleBack(int bagen){
-        for (int i = bagen; i >= 1; i--) {
-            //System.out.print("Back " + i + "\t: \t" );
-            //printMatri();
-            if (iNumbers[i] < iNumbers[i - 1]){
-                iTmp = iNumbers[i - 1];
-                iNumbers[i - 1] = iNumbers[i];
+        iTmp = iNumbers[bagen];
+        for (int i = bagen; i >= 0; i--) {
+            if (i == 0) {  //if cikle began rich then place and break
                 iNumbers[i] = iTmp;
-            }else
                 break;
+            }
+            if (iTmp < iNumbers[i - 1]){ //if less -> slid
+                iNumbers[i] = iNumbers[i-1];
+                if (deBuging){
+                    System.out.print("Back " + i + "\t: \t" );
+                    printMatri();
+                }
+            }else{
+                iNumbers[i - 1] = iNumbers[i]; //place found
+                iNumbers[i] = iTmp;
+                if (deBuging){
+                    System.out.print("Back " + i + "\t: \t" );
+                    printMatri();
+                }
+                break;
+            }
+
         }
     }
 
     private int mainCicle(){
         initMatrix();
-        //uncomment to print
-        //printMatri();
+        if (deBuging){
+            System.out.print("Init \t: \t" );
+            printMatri();
+        }
         cicleForward();
          //   cicleBack();
         return 0;
@@ -120,6 +147,7 @@ public class ExponatVstavkaSlid extends Exponate{
 
 
     public static void printMatri(){
+        System.out.print("| ");
         for (int i = 0; i < iNumbers.length; i++) {
             System.out.print(iNumbers[i] + "; ");
         }
