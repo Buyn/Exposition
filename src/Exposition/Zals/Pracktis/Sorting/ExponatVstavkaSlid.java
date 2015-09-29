@@ -8,10 +8,10 @@ import java.util.Random;
 
 public class ExponatVstavkaSlid extends Exponate{
 //      Setings
-    public static int iLength = 10;
+    public static int iLength = 1000;
     public static int iRange = 1000;
-    public static int iTims = 1;
-    public static boolean deBuging = true;
+    public static int iTims = 1000;
+    public static boolean deBuging = false;
 //     Static  Varibles for work
     static int[] iNumbers = new int[iLength];
     static int  iTmp;

@@ -11,23 +11,24 @@ public class ExponatMeargNativSorting extends Exponate{
 //      Setings
     public static int iLength = 1000;
     public static int iRange = 1000;
-    public static int iTims = 1000;
+    public static int iTims = 10000;
 //names
-    private static String nameExponat = "Merget sorted";
-    private static String discribExponat = "Sorted Merging too masivs, sortit vith nativ sorting metod";
+    private static String nameExponat = "Merging sorted";
+    private static String discribExponat = " Merging too Sorted masivs, sortit vith nativ sorting metod";
 //debuging
     private static boolean deBuging = false;
     private static boolean deBuging1 = false;
 
 //     Static  Varibles for work
-    static private int[] iNumbers ;
-    static private int[] matrix02 ;
+    static private int[] iNumbers =null;
+    static private int[] matrix02 =null;
+    static private int[] result =null;
     static private int  iTmp;
     static private boolean  bContinue = false;
-//varibls for sorting time cikle
-    static private long lStart = 0;
-    static private long lEnd   = 0;
-    static private long lSum   = 0;
+    //varibls for sorting time cikle
+    static private long startCikl = 0;
+    static private long lastCikl = 0;
+    static private long sumCikl   = 0;
 
     public ExponatMeargNativSorting(Room rmRoom1, String sNewName, String newDescription){
         super( rmRoom1,   sNewName,  newDescription);
@@ -45,7 +46,6 @@ public class ExponatMeargNativSorting extends Exponate{
 
 //    @Override
     public  void useObjekt() {
-        if (iNumbers == null) iNumbers = new int[iLength];
         double iLastCicls   = 0;
         double iSumCikls    = 0;
         long lStart = 0;
@@ -63,6 +63,9 @@ public class ExponatMeargNativSorting extends Exponate{
         System.out.println("Procent of Length for " + iLength + " : " + ((iSumCikls / iTims)/iLength)*100 + "%");
         System.out.println("Last sorting Milisecunds = " + ( lEnd - lStart  ));
         System.out.println("Averedg sorting Milisecunds = " + (lSum / iTims ));
+        System.out.println("Net sorting Total Milisecunds = " + sumCikl);
+        System.out.println("Net Averedg sorting Milisecunds = " + (sumCikl / iTims ));
+        System.out.println("Last Net sorting Milisecunds = " + (lSum / iTims ));
         //netSorting
         //averwg netSorting
     }
@@ -136,108 +139,93 @@ public class ExponatMeargNativSorting extends Exponate{
         }
 
     }
-    /**
-     * Mostli not working
-     *  first see found  or not
-     *  if not then determing wher to jump
-     *  and trying agean
-     * @param indexSearch index to cheak betwin
-     * @param indexElement index of elememt for comparing
-     * @return index of sugested gess
-     */
-    private static int pastBinarSearch(int indexSearch , int  indexElement) {
-        //if it eql one then return
-        if (deBuging1){
-                System.out.println(indexSearch);
-                System.out.println(indexElement);
-        }
-        if (indexSearch == 0)return indexSearch;
-        if (iNumbers[indexElement] == iNumbers[indexSearch + 1]
-                ||iNumbers[indexSearch - 1] == iNumbers[indexElement])
-            return indexSearch;
-        //if it in bonds then return
-        if (iNumbers[indexSearch - 1] <= iNumbers[indexElement] &&
-                iNumbers[indexElement] <= iNumbers[indexSearch + 1])
-            return indexSearch;
-        //if not then deside in which side need to go
-        if (iNumbers[indexElement - 1] < iNumbers[indexElement]) {
-            return pastBinarSearch(indexSearch / 2, indexElement);
-        }
-        return pastBinarSearch((iNumbers.length - indexSearch) / 2, indexElement);
-    }
-
-
-    static void cicleBack(int bagen){
-        for (int i = bagen; i >= 1; i--) {
-            //System.out.print("Back " + i + "\t: \t" );
-            //printMatri();
-            if (iNumbers[i] < iNumbers[i - 1]){
-                iTmp = iNumbers[i - 1];
-                iNumbers[i - 1] = iNumbers[i];
-                iNumbers[i] = iTmp;
-            }else
-                break;
-        }
-    }
-
-
 
     private int mainCicle(){
-        initMatrix();
+        if (iNumbers == null && matrix02== null) initMatrix();
         if (deBuging){
             printMatri();
         }
-
-        int count = cicleForward();
+        startCikl= System.currentTimeMillis();
+        int count = SortAndMearg();
+//        int count = cicleForward();
         if (deBuging){
             printMatri();
         }
+        lastCikl = System.currentTimeMillis() - startCikl;
+        sumCikl += lastCikl;
+        iNumbers = null;
+        matrix02 = null;
         return count;
+    }
+
+    private int SortAndMearg() {
+        result = new int[iNumbers.length + matrix02.length];
+        int numbersIndex = 0;
+        int matrixIndex = 0;
+        Arrays.sort(iNumbers);
+        Arrays.sort(matrix02);
+        boolean isContinue = true;
+        //sorts masivs
+        for (int index = 0; index < result.length; index++){
+            if (iNumbers[numbersIndex] <= matrix02[matrixIndex]){
+                result[index] = iNumbers[numbersIndex];
+                numbersIndex++;
+            }else {
+                result[index] = matrix02[matrixIndex];
+                matrixIndex++;
+            }
+            if (deBuging) printMatri();
+            //if one of matrix ends
+            if(matrixIndex > matrix02.length-1){
+                System.arraycopy(iNumbers, numbersIndex,result,index+1,iNumbers.length - numbersIndex);
+                isContinue = false;
+            }
+            if(numbersIndex > iNumbers.length-1){
+                System.arraycopy(matrix02, matrixIndex,result,index+1,matrix02.length - matrixIndex);
+                isContinue = false;
+            }
+            if (!isContinue) break;
+        }
+        return 0;
     }
 
     private void initMatrix() {
         Random rGenerator =new Random();
+        iNumbers = new int[iLength];
         //seting random numbers
         for (int i = 0; i < iLength; i++) {
             iNumbers[i] = rGenerator.nextInt(iRange);
         }
-    }
-
-    public static int countCicls(){
-    int iCount =0;
-    Random rGenerator =new Random();
-    int[] iNumbers = new int[iLength];
-    //seting random numbers
-    for (int i = 0; i < iLength; i++) {
-        iNumbers[i] = rGenerator.nextInt(iRange);
-    }
-    //uncomment to print
-//    printMatri(iNumbers);
-//        sorting cicle
-    counting:
-    while (true) {
-        bContinue = false;
-        for (int i = 0; i < iLength - 1; i++) {
-            if (iNumbers[i] > iNumbers[i + 1]){
-                iTmp = iNumbers[i];
-                iNumbers[i] = iNumbers[i + 1];
-                iNumbers[i + 1] = iTmp;
-                bContinue = true;
-            }
+        //matrix02
+        iTmp = 0;
+        while (iTmp <= 1) iTmp = rGenerator.nextInt(iLength);
+        matrix02 = new int[iTmp];
+        for (int i = 0; i < matrix02.length; i++) {
+            matrix02[i] = rGenerator.nextInt(iRange);
         }
-//        printMatri(iNumbers);
-        if (bContinue != true) break counting;
-        iCount++;
+
     }
-    return iCount;
-}
 
 
     public static void printMatri(){
+        System.out.print("iNumbers |");
         for (int i = 0; i < iNumbers.length; i++) {
             System.out.print(iNumbers[i] + "; ");
         }
         System.out.println("|");
+        System.out.print("matrix02 |");
+        for (int i = 0; i < matrix02.length; i++) {
+
+            System.out.print(matrix02[i] + "; ");
+        }
+        System.out.println("|");
+        System.out.print("result |");
+        if (result != null && result.length > 0 ){
+            for (int i = 0; i < result.length; i++) {
+                System.out.print(result[i] + "; ");
+            }
+            System.out.println("|");
+        }
     }
 
 }

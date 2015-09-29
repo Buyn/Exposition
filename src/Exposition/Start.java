@@ -14,8 +14,8 @@ public class Start {
         BufferedReader brReader = new BufferedReader(new InputStreamReader(System.in));
         Room rmHall = new Room("Big hall");
         rmHall.setingExponat("Table", "It flate");
-        rmHall.setingExponat(new ExponatVstavkaSlid(rmHall
-                , "Puzir Sorting", "Sorting with Puzir metod"));
+        //new ExponatMeargNativSorting(rmHall , new int[] {514, 968, 606, 774, 766, 413, 567, 480, 690, 494},new int[]{760, 985, 660, 833, 821, 429}  );
+        new ExponatMeargNativSorting(rmHall);
         Room rmCooridor = new Room("Cooridor", rmHall);
         Room rmSmollHall = new Room("Smoll Hall", rmHall);
         Room rmSortig = new Room("Sorting Eksposition", rmHall);
@@ -26,6 +26,7 @@ public class Start {
                 , "Sorting Vstavka", "Sorting with back puzir Vstavka metod"));
         rmSortig.setingExponat(new ExponatVstavkaBinarSearch(rmSortig
                 , "Sorting Vstavka and binar search ", "Sorting with puzir  metod and pasting with binar search"));
+        new ExponatMeargNativSorting(rmSortig);
         //rooms for Smoll Hall
         Room rmSleeping = new Room("Sleeping Room", rmSmollHall);
         Room rmWorkshop = new Room("Workshop", rmSmollHall);
