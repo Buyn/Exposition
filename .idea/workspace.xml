@@ -9,12 +9,15 @@
     <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java" line="142" mnemonic="2" />
     <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java" line="47" mnemonic="1" />
     <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java" line="191" mnemonic="3" />
-    <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java" line="160" mnemonic="4" />
+    <bookmark url="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatCopyMeargUnSorted.java" line="160" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e103370e-6d8b-45b3-8ad6-c7a02f01d1ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java" afterPath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java" afterPath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java" />
+    <list default="true" id="e103370e-6d8b-45b3-8ad6-c7a02f01d1ea" name="Default" comment="added Marg sorting&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatCopyMeargUnSorted.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exposition/Exposition/Location/Exponate.class" afterPath="$PROJECT_DIR$/out/production/Exposition/Exposition/Location/Exponate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exposition/Exposition/Location/Room.class" afterPath="$PROJECT_DIR$/out/production/Exposition/Exposition/Location/Room.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exposition/Exposition/Start$1.class" afterPath="$PROJECT_DIR$/out/production/Exposition/Exposition/Start$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exposition/Exposition/Start.class" afterPath="$PROJECT_DIR$/out/production/Exposition/Exposition/Start.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Exposition/Start.java" afterPath="$PROJECT_DIR$/src/Exposition/Start.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -39,25 +42,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Start.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Start.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Exposition/Start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.39618644">
+              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExponatMeargNativSorting.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExponatMeargNativSorting.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16504854">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
               <folding>
                 <element signature="e#1262#1263#0" expanded="true" />
                 <element signature="e#1324#1325#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExponatCopyMeargUnSorted.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatCopyMeargUnSorted.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="165" column="17" selection-start-line="165" selection-start-column="17" selection-end-line="165" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,9 +136,10 @@
         <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatPuzirBarer.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Location/Room.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Location/Exponate.java" />
-        <option value="$PROJECT_DIR$/src/Exposition/Start.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatVstavkaSlid.java" />
         <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java" />
+        <option value="$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatCopyMeargUnSorted.java" />
+        <option value="$PROJECT_DIR$/src/Exposition/Start.java" />
       </list>
     </option>
   </component>
@@ -137,9 +151,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1024" />
-    <option name="width" value="897" />
-    <option name="height" value="1063" />
+    <option name="x" value="1129" />
+    <option name="width" value="791" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -167,8 +181,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,7 +278,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -604,7 +618,8 @@
       <workItem from="1442594977891" duration="4922000" />
       <workItem from="1442612246829" duration="12559000" />
       <workItem from="1442662604099" duration="29241000" />
-      <workItem from="1443154846846" duration="73329000" />
+      <workItem from="1443154846846" duration="76680000" />
+      <workItem from="1444077656883" duration="798000" />
     </task>
     <task id="LOCAL-00001" summary="Work from IDEA">
       <created>1442662902441</created>
@@ -660,11 +675,17 @@
       <option name="project" value="LOCAL" />
       <updated>1443458628087</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added Marg sorting&#10;">
+      <created>1443543815924</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1443543815924</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146584000" />
+    <option name="totallyTimeSpent" value="150733000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -687,8 +708,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1024" y="0" width="897" height="1063" extended-state="0" />
-    <editor active="false" />
+    <frame x="1129" y="0" width="791" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="1081" y="562" width="358" height="306" />
@@ -696,17 +717,14 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32975206" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" x="864" y="641" width="577" height="328" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="23" y="27" width="419" height="629" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39917696" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.32975206" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="618" width="749" height="433" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.32975206" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="617" width="749" height="433" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" x="0" y="447" width="941" height="423" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" weight="0.46875" sideWeight="0.49959448" order="0" side_tool="false" content_ui="combo" x="750" y="1" width="283" height="553" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" weight="0.46875" sideWeight="0.49959448" order="0" side_tool="false" content_ui="combo" x="847" y="-5" width="283" height="553" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32927817" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="239" y="164" width="510" height="457" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.24949084" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" x="749" y="553" width="280" height="498" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.24949084" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" x="854" y="550" width="280" height="498" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46764347" sideWeight="0.5004055" order="3" side_tool="true" content_ui="tabs" x="1239" y="702" width="188" height="206" />
@@ -720,7 +738,10 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="23" y="27" width="419" height="629" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39917696" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32927817" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="239" y="164" width="510" height="457" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -745,31 +766,12 @@
     <MESSAGE value="vstav puzir Slading&#10;" />
     <MESSAGE value="all done&#10;Mearging exempl&#10;" />
     <MESSAGE value="adding tim counting" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding tim counting" />
+    <MESSAGE value="added Marg sorting&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Marg sorting&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java</url>
-          <line>142</line>
-          <properties class="Exposition.Zals.Pracktis.Sorting.ExponatMeargNativSorting" method="mainCicle" />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java</url>
-          <line>153</line>
-          <properties />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java</url>
-          <line>199</line>
-          <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="41" />
+      <option name="time" value="42" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -778,6 +780,59 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding>
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1324#1325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatCopyMeargUnSorted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="165" column="17" selection-start-line="165" selection-start-column="17" selection-end-line="165" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Person/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Location/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+          <folding>
+            <element signature="method#getDoorWay#0;class#Room#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Location/Exponate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Exposition/Start.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -884,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33262712">
           <caret line="1817" column="22" selection-start-line="1817" selection-start-column="22" selection-end-line="1817" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,14 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exposition/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Exposition/Person/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -950,18 +996,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16504854">
           <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatCopyMeargUnSorted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="165" column="17" selection-start-line="165" selection-start-column="17" selection-end-line="165" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Exposition/Zals/Pracktis/Sorting/ExponatMeargNativSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16504854">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
           <folding>
             <element signature="e#1262#1263#0" expanded="true" />
             <element signature="e#1324#1325#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exposition/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39618644">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
